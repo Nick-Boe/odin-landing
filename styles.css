@@ -19,6 +19,7 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 80pt;
+  font-size: 1.5vw;
 }
 
 .header.hleft {
@@ -55,7 +56,7 @@ body {
   font-weight: bold;
   height: auto;
   width: auto;
-  font-size: auto;
+  font-size: 1.5vw;
 }
 .textlogo {
   display: flex;
@@ -93,7 +94,7 @@ body {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
-  font-size: 10pt;
+  font-size: 1.5vw;
 }
 .infobox {
   display: flex;
@@ -113,7 +114,7 @@ body {
 }
 .quote {
   background-color: #e5e7eb;
-  font-size: 8pt;
+  font-size: 1.25vw;
   height: auto;
   display: flex;
   flex-flow: row-reverse nowrap;
@@ -141,8 +142,9 @@ body {
   border-radius: 125px;
 }
 .action {
-  height: 200pt;
+  height: auto;
   display: flex;
+  flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
   background-image: url("./images/FUSH Logo BW.png");
@@ -153,6 +155,29 @@ body {
     z-index: -1;
     flex-grow: 0;
     flex-shrink: 0;
+}
+.modal {
+  background-color: #e6352d;
+  background-blend-mode: multiply;
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  opacity: 0.9;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw 0vw 2vw 30vw;
+}
+.mtext {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5vw;
+  padding: .5vw;
+  margin: 0;
+  opacity: 1;
 }
 footer {
   background-color: #1f2937;
